@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ae
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='file:/users/guest/k/krr428/NetBeansProjects/AncientTiles/src/ancienttiles/tiles/mapgen/mapgen.xsd'>
+    
+    <mapgen>
+        <layer id="00 Map" type="color" color=""></layer>
+        <layer id="01 Floor" type="" ></layer>
+        <layer id="02 Test" type="" ></layer>
+    </mapgen>
+    <map>
+        <tile x="" y="">
+            <attribute></attribute>
+            <attribute></attribute>
+            <attribute></attribute>
+        </tile>
+        <tile x="" y="">
+            <attribute></attribute>
+        </tile>
+        <tile x="" y="">
+            <attribute></attribute>
+        </tile>
+    </map>
+
+</ae>

@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <xs:element name="ae">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="map">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="layer" minOccurs='0'>
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="tile" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="attribute" maxOccurs="unbounded" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="x" type="xs:int"></xs:attribute>
+                                                <xs:attribute name="y" type="xs:int"></xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                </xs:complexType>                         
+                                
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="mapgen">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="layer" maxOccurs="unbounded" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="maprgb" maxOccurs="unbounded" minOccurs="0">                                        
+                                        </xs:element>
+                                    </xs:sequence>                                    
+                                    <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                    <xs:attribute name="type" type="xs:string"></xs:attribute>
+                                    <xs:attribute name="color" type="xs:string"></xs:attribute>
+                                    <xs:attribute name="imgloc" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+
+
