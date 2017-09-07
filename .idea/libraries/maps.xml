@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="maps">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map5.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map11.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map8.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map1b.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map7.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Master.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Combinatoric.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map9.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map2b.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map4.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map10.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map1.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map3b.zip!/" />
+      <root url="jar://$PROJECT_DIR$/src/ancienttiles/tiles/maps/Map12.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

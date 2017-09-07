@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<ae>
+    <mapgen>
+        <layer id="00 Background" type="color" color="FFFFFF" />
+        
+        <layer id="01 Floor" type="rgbmap">
+            <maprgb rgb='FFFFFF' image="floor1.png">
+                <attribute>floor</attribute>                
+            </maprgb>
+            <maprgb rgb='FFFF00' image="floor2.png">
+                <attribute>floor</attribute>
+            </maprgb>
+            <maprgb rgb='FFFFFF' image="floor3.png">
+                <attribute>floor</attribute>
+            </maprgb>
+            <maprgb rgb='FFFFFF' image="floor4.png">
+                <attribute>floor</attribute>
+            </maprgb>
+        </layer>
+        
+        <layer id="02 AI" type="rgbmap">
+            <maprgb rgb='FFFFFF' image="floor1.png">
+                <attribute>AI</attribute>
+                <attribute>floor</attribute>
+                <attribute>timedObj</attribute>
+            </maprgb>
+        </layer>
+    </mapgen>
+    
+    <map>
+        <layer id="01 Background">
+            <tile x="1" y="26">
+                <attribute>helptile</attribute>
+                <attribute>additionalAttributes</attribute>
+                <attribute>something</attribute>
+            </tile>
+            <tile x="26" y="44">
+                <attribute>%exit=testmap2.zip</attribute>
+            </tile>
+        </layer>
+    </map>
+</ae>
